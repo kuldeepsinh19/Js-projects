@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="heading">
+        <h1>Registration Form</h1>
+      </div>
+
+      <form
+        action="/myaction.php"
+        class="myform"
+        name="myform"
+        onsubmit="return validateform()"
+        method="post"
+      >
+        <div class="form-control" id="name">
+          <label>Name</label>
+          <input
+            type="text"
+            name="fname"
+            required
+            autocomplete="off"
+            placeholder="enter full name please"
+            /><span class="formerror"></span>
+        </div>
+        <div class="form-control" id="email">
+            <label>Email</label>
+            <input
+            required
+            autocomplete="off"
+            type="email"
+            name="femail"
+            placeholder="enter your email"
+            /><span class="formerror"></span>
+        </div>
+        <div class="form-control" id="phone">
+            <label>Phone</label>
+            <input
+            type="phone"
+            autocomplete="off"
+            name="fphone"
+            required
+            placeholder="Mobile no"
+            /><span class="formerror"></span>
+        </div>
+        <div class="form-control" id="pass">
+            <label>Password</label>
+            <input
+            type="password"
+            required
+        autocomplete="off"
+            name="fpass"
+            placeholder="enter password"
+            /><span class="formerror"></span>
+        </div>
+        <div class="form-control" id="cpass">
+            <label> Confirm Password</label>
+            <input
+            type="password"
+            autocomplete="off"
+            required
+            name="fcpass"
+            placeholder="enter password"
+            /><span class="formerror"></span>
+        </div>
+        <div class="form-control btn" id="submit">
+            <button type="submit"  name="fsubmit">submit</button>
+        </div>
+      </form>
+    </div>
+
+    <!-- script adding  -->
+    <script src="script.js"></script>
+  </body>
+</html>
