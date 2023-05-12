@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <h2 id="block"></h2> -->
+    <!-- <script>
+        function longest(str){
+            var array = str.split(' ');
+            // var array = str.match(/\w[a-z]{0,}/gi);
+            var longestword = array[0];
+            for (i = 1; i<array.length; i++)
+            {
+              if(longestword.length < array[i].length)
+              {
+                  longestword = array[i];
+              }
+            }
+            return longestword;
+        }
+        console.log(longest(' ami tomake bhalobhasi kkxix zjkzjxijizjxijijijzxijz')) -->
+    <!-- </script> -->
+
+    <!-- <script>
+        function vowel(str){
+            // let x = str.match(/aeiou/gi);
+            let vowelist = "aeiouAEIOU";
+            let  vcount = 0;
+            for (x = 0; x < str.length; x++){
+                if ( vowelist.indexOf(str[x]) !== -1){
+                    vcount += 1;
+                }
+            }
+            return vcount;
+        }
+
+        console.log(vowel("suna he tere chahnewale"))
+    </script> -->
+
+    <!-- <script> -->
+    <!-- //   function prime(num) {
+    //     // var arr = [33,23,2,23,53,5,6,7,8,8,22,34,4,23,]
+    //     // for (i = 2; i<arr.length i++)
+    //     for (i = 2; i++; ) {
+    //       if (num % i === 0);
+    //       {
+    //         return false;
+    //         // break;
+    //       }
+    //     }
+    //     return true;
+    //   }
+    //   // return false;
+    //   console.log(prime(7)); -->
+    <!-- </script> -->
+    <!-- <script>
+      function matrix(n) {
+        var i;
+        var j;
+
+        for (i = 0; i < n; i++)
+         {
+          for (j = 0; j < n; j++) 
+          {
+            if (i === j)
+             {
+              console.log('1');
+            } 
+            else 
+            {
+              console.log('0');}
+        }
+        console.log("------------");
+    }
+}
+       console.log(matrix(4)) -->
+    <!-- </script> -->
+    <!-- 
+    // function Second_Greatest_Lowest(arr_num)
+    //     {
+    //       arr_num.sort(function(x,y)
+    //                {
+    //                return x-y;
+    //                });
+    //       var uniqa = [arr_num[0]];
+    //       var result = [];
+          
+    //       for(var j=1; j < arr_num.length; j++)
+    //       {
+    //         if(arr_num[j-1] !== arr_num[j])
+    //         {
+    //           uniqa.push(arr_num[j]);
+    //         }
+    //       }
+    //         result.push(uniqa[1],uniqa[uniqa.length-2]);
+    //       return result.join(',');
+    //       }
+        
+        // console.log(Second_Greatest_Lowest([1,2,3,4,5])); -->
+
+    <!-- 
+        <script>            function perfect(num){
+                var temp =0
+                for (i=0; i<num; i++){
+                    if(num%i === 0){
+                        temp+=i;
+                    }
+                }
+
+
+                if (temp===num && temp!== 0)
+                {
+                    console.log("its a perfect number")
+                }
+                else{
+                    console.log("its not a perfect")
+                }
+            }        
+            
+
+            console.log(x)
+              console.log(perfect(6))
+
+            //   if(i)
+
+        </script> -->
+    <!-- <script>
+            function exe(b , n){
+                console.log(Math.pow(b,n))
+            }
+            exe(77,3) -->
+    <!-- </script> -->
+    <script>
+      // function count(string) {
+      //     let string1 = string.split("").sort().join("");
+      //     let counter = 0;
+      //     console.log(string1)
+      //     for (let i = 0; i < string.length; i++) {
+      //       if (string1[i] == string1[i + 1]) {
+      //         counter++;
+      //       } else {
+      //         console.log(string1[i] + " " + counter);
+      //         counter = 1;
+      //       }
+      //     }
+      //   }
+      //   count("thequickbbbbbbrownfoxjumpsoooverthelazydog")
+      // var string = "tu hi mere liye ab kar dua tera hokar bhi me tezra ho na saka"
+      // var letter  = prompt("enter a letter you wanna know how many times it is occured : ")
+
+      // let strlen = string.length;
+      // let counter = 0;
+      // for (var i = 0; i<strlen; i++){
+      //     if (string[i] === letter)
+      //     {
+      //         counter++;
+
+      //     }
+      // }
+      // console.log(` ${string} => ${letter} : ${counter}`)
+      // function unique_char(str1)
+      // {
+      //  var str=str1;
+      //  var uniql="";
+      //  for (var x=0;x < str.length;x++)
+      //  {
+
+      //  if(uniql.indexOf(str.charAt(x))==-1)
+      //   {
+      //   uniql += str[x];
+
+      //    }
+      //   }
+      //   return uniql;
+      // }
+      // console.log(unique_char("thequickbrownfoxjumpsoverthelazydog"));
+
+      // function neew(value)
+      // {
+      //      return function big(evalue){
+      //         return (evalue>= value)
+      //     };
+      // }
+      // let result = [33,3,23,43,5,95,552].filter(neew(66))
+      // ------------------myfav cause it is easy-------------
+      // function makeid(idee){
+      //     var char_list = "ABCDEFGHIJKLMNOPQRSTUVWXZYabcdefghijklnmopqrstuvwxyz1234567890";
+      //     var text = " ";
+      //     for(let i = 0; i<idee; i++){
+      //         text += char_list.charAt(Math.floor(Math.random() * char_list.length))
+
+      //     }
+      //     return text;}
+      // console.log(makeid(9))
+
+      // -----------------------------------------------
+      // function  count_occ(str,counts){
+      //     var str1 = str
+      //     var counter = 0
+
+      //     for (i = 0; i<str1.length; i++){
+      //         if(str1[i] === counts){
+      //             counter++;
+      //         }
+
+      //     }
+      //     return counter
+      // }
+      // console.log( count_occ( 'w3resource.com', 'o'))
+      // -----------------------non repeating character--------------------------
+
+      // function myfun(str){
+
+      //     let char = str
+      //     var x = " ";
+      //     for (i = 0; i<char.length; i++){
+      //          x += char.lastindexOf(i);
+      //     }
+      //     return x;
+
+      // }
+      // console.log(myfun("abbaceddf"))
+      //   function nonrepeating(value) {
+      //     var arr = value.split("");
+      //     var result = "";
+      //     var count = 0;
+      //     for (x = 0; x < arr.length; x++) {
+      //       count = 0;
+      //       for (y = 0; y < arr.length; y++) {
+      //         if (arr[x] === arr[y]) {
+      //           count += 1;
+      //         }
+      //       }
+      //       if (count < 2) {
+      //         result = arr[x];
+      //         break;
+      //       }
+      //     }
+      //     return result;
+      //   }
+      //   console.log(nonrepeating("abbacdcadeff"))
+      // var library = [
+      //    {
+      //        author: 'Bill Gates',
+      //        title: 'The Road Ahead',
+      //        readingStatus: true
+      //    },
+      //    {
+      //        author: 'Steve Jobs',
+      //        title: 'Walter Isaacson',
+      //        readingStatus: true
+      //    },
+      //    {
+      //        author: 'Suzanne Collins',
+      //        title:  'Mockingjay: The Final Book of The Hunger Games',
+      //        readingStatus: false
+      //    }];
+      // console.log(typeof(library))
+      // // let book = "";
+      // for (let x = 0; x<library.length; x++){
+      //   var book =library[x].title + "which is written by " + library[x].author;
+      //   if( library[x].readingStatus){
+      //     console.log("already read" + book)
+      //   }
+      //   else
+      //   {
+      //     console.log("you still hve to read" + book)
+      //   }
+      // }
+
+      // console.log(book)
+      // ------------------------------------------------------------------------------------
+      // function cylinder (cy_height , cy_diameter){
+      //   this.cy_diameter = cy_diameter;
+      //   this.cy_height = cy_height;
+
+      //   cylinder.prototype.volume = function(){
+      //     var radius = this.cy_diameter/2;
+      //     return this.cy_height * Math.PI * radius * radius;
+
+      //   }
+      // }
+      //   var cy =  new cylinder(9,7);
+      // console.log("volume is"  + cy.volume().toFixed(4));
+      // -----------------------------------------------------------------------------------------------------------------
+      // var marks = [12, 25, -1, 23, -7, -66,11, 100];
+
+      //     // Print Before sorting array
+      //     console.log("Original Array");
+      //     console.log(marks);
+
+      //     // Sort elements using compare method
+      //     marks.sort(function(a, b){return b - a});
+
+      //     console.log("After sorting in Ascending order");
+
+      //     // Print sorted Numeric array
+      //     console.log(marks);
+
+      // ---------------------------------------------------------------------------.
+
+      // String.prototype.sub_string = function()
+      // {
+      //   var subset = [];
+
+      //   for ( var m = 0;  m<this.length; m++)
+
+      //   {
+      //   for ( var n= m+1;  n < this.length + 1; n++)
+      //     {
+      //        subset.push(this.slice(m,n))
+      //     }
+      //   }
+      //   return subset;
+      // };
+      // // console.log("doggy".sub_string())
+      // function timing(){
+
+      //   let x = new Date();
+      //   let hours = x.getHours();
+      //   let minutes = x.getMinutes();
+      //   let seconds = x.getSeconds();
+
+      //   if(hours<10)
+      //   {
+      //     hours =  "0" + hours
+      //   }
+      //   if(minutes<10){  minutes = "0" + minutes}
+      //   if(seconds<10){ seconds = "0" + seconds}
+      //   let time = hours + ":" +  minutes + ":" + seconds;
+
+      //   document.getElementById("block").innerText = time;
+
+      //   // console.log(time)
+      //   let t = setTimeout( function()  {timing()} , 1000);
+      //   }
+      // console.log(timing(time))
+      // timing()
+
+      // =---------------------------------------------------------------
+      // function circle(radius) {
+      //   this.radius = radius;
+      //   this.area = function () {
+      //     return Math.PI * this.radius * this.radius;
+      //   };
+
+      //   this.perimeter = function () {
+      //     return 2 * Math.PI * this.radius;
+      //   };
+
+      // }
+      //   var c = new circle(3);
+      //   console.log("area = " + c.area().toFixed(2));
+      //   console.log("perimeter = " + c.perimeter().toFixed(2));
+  
+      // // circle()
+
+      // function findallmethods(obj){
+      //   return Object.getOwnPropertyNames(obj).filter(function (property){ 
+      //     return typeof obj[property] == 'function'})
+      // }
+      // console.log(findallmethods(Math))
+      // console.log(findallmethods(Array))
+      // function allproperties(obj){
+      //   return Object.getOwnPropertyNames(obj);
+      // }
+      // console.log(allproperties(Math))
+      // console.log(allproperties(Array))
+
+      // var url = "https://www.geeksforgeeks.org/pathname/?search=query"
+      // // var a = document.createElement("a")
+      // var a = new URL(url)
+      // // a.href = url
+
+      // console.log(a.host)
+      // console.log(a.hostname)
+      // console.log(a.pathname)
+      // console.log(a.search)
+      // console.log(a.searchParams)
+      // // console.log(a.port)
+      // console.log(a.protocol)
+      // function allkeys(obj){
+      //   if(!isObject(obj)) 
+      //   return [];
+      //   var values = [];
+      //   for (var value in obj) 
+      //   values.push(value)
+      //   return values;
+      // }
+      
+      // function isObject(obj){
+      //   var type = typeof obj;
+      //    return type === 'function' || type === 'object' && !!obj;
+
+      // }
+
+      // function student (name , age){
+      //   this.name = name
+      //   this.age = age;
+      // }
+      // // student.prototype.name = 
+      // console.log(allkeys( new student("sara" , 33)));
+      function Person(first, last, age, eye) {
+  this.firstName = first;
+  this.lastName = last;
+  this.age = age;
+  this.eyeColor = eye;
+}
+
+Person.prototype.nationality = "English";
+const myather = Object.entries(new Person("John", "Doe", 50, "blue"));
+
+// const x = myFather.toArray()
+console.log((myather))
+
+
+    </script>
+  </body>
+</html>

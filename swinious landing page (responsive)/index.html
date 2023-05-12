@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Sinik</title>
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <header class="head">
+      <div class="logo">
+        <h3>SWINIOUS PRODUCTS</h3>
+        <p>Your new world</p>
+      </div>
+      <nav class="navbar">
+        <ul class="nav-ul">
+          <li class="nav-list"><a href="home.html">HOME</a></li>
+          <li class="nav-list"><a href="about.html">ABOUT</a></li>
+          <li class="nav-list"><a href="contact.html">CONTACT</a></li>
+          <li class="nav-list"><a href="services.html">SERVICES</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+        <img class = "images" src="img/alexandre-debieve-hlsMuZ24rAs-unsplash.jpg" alt="">
+        <img class = "images" src="img/cropped.jpg" alt="">
+        <img class = "images" src="img/raimond-klavins-O2TfjG_KEuo-unsplash.jpg" alt="">
+    </section>
+    <script>
+      var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("images");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3000);
+}
+    </script>
+    <section>
+      <div class="heading1">
+        <h2>CHECKOUT OUR LATEST TOUR PACKAGES </h2>
+
+      </div>
+    </section>
+    <section >
+      <div class="main1">
+        <div class="containers1">
+          <img  class ="con1images" src="img/goa.jpg" alt="">
+        </div>
+        <div class="containers1">
+          <img  class ="con1images" src="img/gujarat.jpg" alt="">
+        </div>
+        <div class="containers1">
+          <img class ="con1images" src="img/punjab.jpg" alt="">
+        </div>
+        <div class="containers1">
+          <img  class ="con1images" src="img/rajasthan.jpg" alt="">
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="heading1">
+        <h2>CHECKOUT OUR LATEST TOUR PACKAGES </h2>
+
+      </div>
+    </section>
+
+    
+    <section class="section1main1">
+      <div class="main1">
+        <div class="containers1">
+          <img  class ="con1images" src="img/goa.jpg" alt="">
+        </div>
+        <div class="containers1">
+          <img  class ="con1images" src="img/gujarat.jpg" alt="">
+        </div>
+        <div class="containers1">
+          <img class ="con1images" src="img/punjab.jpg" alt="">
+        </div>
+        <div class="containers1">
+          <img  class ="con1images" src="img/rajasthan.jpg" alt="">
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
