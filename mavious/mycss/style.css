@@ -1,0 +1,240 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Kenia&family=Raleway:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.navbar{
+    display: flex;
+    /* background-color: red; */
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0%;
+    cursor: pointer;
+
+}
+.logo{
+    width: 75px;
+    height: 76px;
+}
+.logo img{
+    width: 70px;
+    height: 80px;
+}
+.nav-list{
+    width: 70%;
+    /* background-color: wheat; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+}
+.nav-list li{
+list-style: none;
+padding:  26px 19px;;
+
+}
+.nav-list li a {
+    /* display: flex; */
+    text-decoration: none;
+    color: white;
+}
+.nav-list li a:hover{
+    color: rgb(187, 219, 157);
+}
+.rightnav{
+    display: flex;
+    width: 30%;
+    padding: 27px 13px;
+    justify-content: right;
+    /* background-color: black; */
+    text-align: right;
+    /* font-size: 7px; */
+}
+.rightnav img{
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+    justify-content: center;
+    padding: 6px 10px;
+}
+#search{
+    padding: 2px;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 300px;
+    /* background: none; */
+    border: 1px solid black;
+    border-radius: 1px;
+}
+.background{
+    background: rgba(0, 0,0, 0.7) url('/images/bg.jpg');
+    /* background-image: url('C:\Users\ADMIN\css project\project for insaid\images\bg.jpg'); */
+    background-blend-mode: darken;
+    background-size: cover;
+
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width:50%;
+    margin: auto;
+    /* padding: auto; */
+    height:  80%;
+    color: white;
+    font-family: 'Kenia', cursive;
+   font-family: 'Raleway', sans-serif;
+}
+.half1{
+    display: flex;
+    width: 75%;
+    height: 50%;
+    flex-direction: column;
+    justify-content: center;
+}
+.half2{
+    width: 20%;
+}
+.half2 img{
+
+    width: 244px;
+    height: 253px;
+    padding: 23px;
+    border-radius: 67px ;
+}
+.section-one{
+    height: 80vh;
+
+}
+.btn{
+    background-color: black;
+    color: white;
+    background: none;
+    cursor: pointer;
+    margin: 7px 3px;
+    padding: 8px 20px;
+}
+.big-text{
+    font-size: 35px;
+    padding: 10px 0px;
+    font-family: 'Kenia', cursive;
+   font-family: 'Raleway', sans-serif;
+
+}
+.small-text{
+    font-size: 20px;
+    font-family: 'Kenia', cursive;
+    font-family: 'Raleway', sans-serif;
+}
+
+.thumbnail img{
+    width: 240px;
+    height: 240px;
+    border-radius: 33px;
+}
+.sec-right{
+    height: 50vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    margin: auto;
+    background-color: rgb(223, 241, 201);
+}
+
+.paragraph{
+    padding: 0 98px;
+}
+.sec-left{
+    height: 50vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    max-width: 100%;
+    margin: auto;
+    background-color: rgba(173, 167, 145, 0.533);
+}
+.sec-subtag{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:pink;
+    color: aliceblue;
+    font-size: 23px;
+    padding: 13px 0px;
+}
+.form{
+    max-width: 1010px;
+    margin: 25px auto;
+}
+.form-input{
+    margin: 14px 0px;
+    padding: 5px 3px;
+    width: 100%;
+    font-size: 19px;
+    border: 2px solid grey;
+    border-radius: 6px;
+    font-family: 'Raleway', sans-serif;
+}
+/* .contact{ */
+    /* background-color: rgb(199, 138, 138); */
+/*  */
+/* } */
+.text-center{
+    text-align: center;
+    padding: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 34px;
+}
+.btn-dark{
+    color: black;
+    border: 2px solid grey;
+    font-size: 16px;
+    border-radius: 6px;
+    font-family: 'Raleway', sans-serif;
+
+}
+/* .burger{
+    display:none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+} */
+
+/* @media  screen   {
+    *{
+        max-width:1140px;
+    }
+    .nav-list{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+    }
+    .rightnav{
+        text-align:center;
+    }
+    #search{
+        width: 100%;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav{
+        height: 73px;
+    }
+    .v-class{
+        opacity: 0;
+    } 
+}
+ */
